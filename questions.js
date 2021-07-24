@@ -1,14 +1,14 @@
 //creating questions array
 let questions = [
     {
-        numb: 1,
-        que: "What does HTML stands for ?",
-        ans:"Hyper Text Preprocessor",
+        numb: 1,                               //quetion number
+        que: "What does HTML stands for ?",    //write your question here
+        ans:"Hyper Text Preprocessor",         //write your answer here
         options:[
-            "Hyper Text Preprocessor",
-            "Hyper Text markup",
-            "Hyper Text multi",
-            "Hyper Text tool"
+            "Hyper Text Preprocessor",         //option-1
+            "Hyper Text markup",               //option-2
+            "Hyper Text multi",                //option-3
+            "Hyper Text tool"                  //option-4
         ]
     },
     {
