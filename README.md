@@ -11,15 +11,5 @@ This is a mini quiz application with timer. it uses questions from javascript ar
 5. congrats you are done.Enjoy the mini quiz application.
 
 // to add questions
-1. You can add questions in `questions.js` file according to the format bellow.
-    {
-        numb: 1, //quetion number
-        que: "What does HTML stands for ?",  //write your question here
-        ans:"Hyper Text Preprocessor",      //write your answer here
-        options:[
-            "Hyper Text Preprocessor",     //option-1
-            "Hyper Text markup",           //option-2
-            "Hyper Text multi",            //option-3
-            "Hyper Text tool"              //option-4
-        ]
-    }
+1. You can add questions in `questions.js` file according to the format.
+    
