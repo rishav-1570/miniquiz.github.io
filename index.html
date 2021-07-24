@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz with timer</title>
+</head>
+<body>
+    <!--start button-->
+    <div class="startbtn">
+        <button>Start Quiz</button>
+    </div>
+<!--info box-->
+    <div class="info_box" style="display: none;">
+        <div class="info_head">
+            <span>Some Rules of this Quiz</span>
+        </div>
+        <ol >
+            <li>You will have <span>15 seconds</span> for each question.</li>
+            <li>Once you select your answer it can't be undone.</li>
+            <li>You can't select any options once time goes off.</li>
+            <li>You can't exit quiz while you're playing.</li>
+            <li>You will get points on the basis of your correct answers.</li>
+        </ol>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <!--quiz box-->
+    <div class="quiz_box" style="display: none;">
+        <div class="quiz_head">
+            <span class="fix_title">Mini Quiz Application</span>
+            <div class="time_text">Time Left <span class="time_left">15</span></div>
+            <div class="time_line"></div>
+        </div>
+        <div class="quiz_content">
+            
+            <div class="que_text">
+                <span>1. What does HTML stands for ?</span>
+            </div>
+            <div class="option_list">
+                <div class="option">
+                    <span>Hyper Text Preprocessor</span>
+                    <div class="icon"><i class="fas"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hyper Text Preprocessor</span>
+                    <div class="icon"><i class="fas"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hyper Text Preprocessor</span>
+                    <div class="icon"><i class="fas"></i></div>
+                </div>
+                <div class="option">
+                    <span>Hyper Text Preprocessor</span>
+                    <div class="icon"><i class="fas"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="quiz_foot">
+            <span class="foot_text"><span> 2 </span> of <span> 5 </span> Questions</span>
+            <button class="next_que" >Next</button>
+        </div>
+    </div>
+    
+    <!--result box-->
+    <div class="result_box" style="display: none;">
+        <div class="result_icon">
+            <span><i class="fas fa-trophy"></i></span>
+        </div>
+        <div class="result_text">
+            <div>You've completed the Quiz!</div>
+            <span>Congrats</span>
+            <span>! You got <span>4</span> out of <span>5</span> </span>
+        </div>
+        <div class="result_btn">
+            
+            <button class="quitbtn">Quit Quiz</button>
+        </div>
+    </div>
+
+
+</body>
+<script src="https://kit.fontawesome.com/32a38c632c.js" crossorigin="anonymous"></script>
+<script src="questions.js"></script>
+<script src="script.js"></script>
+
+</html>
